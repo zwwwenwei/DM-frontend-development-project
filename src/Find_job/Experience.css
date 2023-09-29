@@ -1,0 +1,27 @@
+.ex-text{
+    text-align:center;
+}
+.inputE2 {
+    display: flex;
+}
+
+.inputE2 .no1input {
+    height: 30%;
+    width: 20%;
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+
+.inputE2 .no2 {
+    position: relative;
+    left: 400px;
+}
+
+.inputE2 .no2input {
+    height: 30%;
+    width: 20%;
+    position: relative;
+    top: 15px;
+    left: 430px;
+}

@@ -1,0 +1,9 @@
+.send-email-button {
+    padding: 60px 20px;
+}
+.send-email-button .button-field {
+    width: 150px;
+    height: 50px;
+    font-size: 80%;
+    background-color: #818181;
+}

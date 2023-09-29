@@ -1,0 +1,30 @@
+.inputD1 {
+    display: flex;
+}
+.inputD1 .input {
+    height: 30%;
+    position: relative;
+    top: 15px;
+    left: 30px;
+    width: 50%
+}
+.inputD2 {
+    display: flex;
+}
+.inputD2 .input {
+    height: 80px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    width: 90%
+}
+.inputD3 {
+    display: flex;
+}
+.inputD3 .input {
+    height: 30%;
+    position: relative;
+    top: 15px;
+    left: 80px;
+    width: 90%
+}

@@ -1,0 +1,81 @@
+.inputP1 {
+    display: flex;
+}
+.inputP1 .input {
+    height: 30%;
+    width: 20%;
+    position: relative;
+    top: 15px;
+    left: 200px;
+}
+.inputP2 {
+    display: flex;
+}
+.inputP2 .min {
+    position: relative;
+    left: 235px;
+}
+.inputP2 .mininput {
+    height: 30%;
+    width: 10%;
+    position: relative;
+    top: 15px;
+    left:350px;
+}
+
+.inputP2 .max {
+    position: relative;
+    left: 535px;
+}
+
+.inputP2 .maxinput {
+    height: 30%;
+    width: 10%;
+    position: relative;
+    top: 15px;
+    left: 650px;
+}
+.inputP3 {
+    display: flex;
+}
+
+.inputP3 .input {
+    height: 30%;
+    width: 20%;
+    position: relative;
+    top: 15px;
+    left: 195px;
+}
+
+.inputp4 {
+    display: flex;
+}
+
+.inputp4 .fileName {
+    border-style: ridge;
+    height: 30px;
+    width: 30%;
+    position: relative;
+    left: 195px;
+}
+
+.inputp4 .browse {
+    height: 30%;
+    width: 10%;
+    position: relative;
+    top: 15px;
+    left: 400px;
+    background-color: #8c8b8b;
+    color: #000000;
+    border: none;
+}
+
+.upload {
+    height: 30%;
+    width: 10%;
+    position: relative;
+    left: 926px;
+    background-color: #8c8b8b;
+    color: #000000;
+    border: none;
+}

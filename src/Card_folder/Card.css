@@ -1,0 +1,34 @@
+.row {
+    display: flex;
+    max-width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.column {
+    flex: 33.33%;
+    padding: 3px;
+}
+.morestaff {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.staffbutton {
+    padding: 15px 52px;
+    border: None;
+    border-radius: 20px;
+    background-color: #b4b3b3;
+}
+.morecustomer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customerbutton {
+    padding: 15px 52px;
+    border: None;
+    border-radius: 20px;
+    background-color: #b4b3b3;
+}

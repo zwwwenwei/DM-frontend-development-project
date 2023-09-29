@@ -1,0 +1,94 @@
+.signup-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: black;
+}
+
+.signup-div h1 {
+    color: #43a293;
+    font-size: 20px;
+    position: relative;
+    left: 90px;
+}
+
+.signup-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.signup-name p {
+    position: relative;
+    right: 60px;
+}
+.signup-name input {
+    position: relative;
+    left: 30px;
+    width:150%;
+}
+
+.signup-email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.signup-email p {
+    position: relative;
+    right: 62px;
+}
+
+.signup-email input {
+    position: relative;
+    left: 32px;
+    width: 150%;
+}
+
+.signup-password {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.signup-password p {
+    position: relative;
+    right: 49px;
+}
+
+.signup-password input {
+    position: relative;
+    left: 19px;
+    width: 150%;
+}
+
+.signup-confirmPassword {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.signup-confirmPassword p {
+    position: relative;
+    right: 19px;
+}
+
+.signup-confirmPassword input {
+    position: relative;
+    right: 11px;
+    width: 150%;
+}
+
+
+.signup-button {
+    background-color: #43a293;
+    color:white;
+    border: none;
+    position: relative;
+    left: 90px;
+    padding: 6px 125px;
+}

@@ -1,0 +1,28 @@
+.signin-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.signup-instead {
+    background-color: white;
+    color: #43a293;
+    border: 2px solid #43a293;
+    position: relative;
+    left: 500px;
+    padding: 6px 55px;
+}
+.signin-email input {
+    width: 150%;
+}
+.signin-password input{
+    width: 150%;
+}
+.signin-button {
+    background-color: #43a293;
+    color: white;
+    border: none;
+    position: relative;
+    left:50px;
+    padding: 6px 115px;
+}

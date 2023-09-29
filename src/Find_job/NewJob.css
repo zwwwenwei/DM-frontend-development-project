@@ -1,0 +1,48 @@
+p.newjob {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head {
+    background-color: lightgray;
+}
+.select{
+    display:flex;
+}
+.select1 {
+    position: relative;
+    left: 150px;
+    top: 15px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+p.freelance {
+    position: relative;
+    left: 150px;
+}
+.select2 {
+    position: relative;
+    left: 400px;
+    top: 15px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+p.employment {
+    position: relative;
+    left: 400px;
+}
+.post {
+    position: relative;
+    left: 80%;
+    width: 20%;
+    background-color: #8c8b8b;
+    color: #000000;
+    border:none;
+}
+
+.search-delete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

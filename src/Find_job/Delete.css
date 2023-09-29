@@ -1,0 +1,11 @@
+.delete-job{
+    display: flex;
+}
+
+.delete-button{
+    height:25px;
+    width:150px;
+    background-color: #8c8b8b;
+    color: #000000;
+    border: none;
+}
