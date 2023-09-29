@@ -6,7 +6,8 @@ import HomePage from './Routes/HomePage';
 import FindJob from './Routes/FindJob';
 import LoginPage from './Routes/LoginPage';
 import CreateAccountPage from './Routes/CreateAccountPage';
-import Profile from './Authentication/Profile'
+import Profile from './Authentication/Profile';
+import NewJob from './Find_job/NewJob';
 function App() {
     //const [searchTerm, setSearchTerm] = useState('')
     /*function onSearchChange(e)
