@@ -6,6 +6,7 @@ import './NewJob.css'
 import JobList from './EmploymentJobList'
 import SearchJob from './EmploymentSearch'
 import DeleteJob from './EmploymentDelete'
+import Payment from './Payment'
 import { createEmploymentDocFromAuth } from '../utils/firebase'
 
 function Employment() {
@@ -248,6 +249,7 @@ function Employment() {
             <br></br>
             <br></br>
             <button className="post" onClick={handleSubmit}>Post</button>
+            <Payment />
             <br></br>
             <br></br>
            
