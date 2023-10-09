@@ -39,7 +39,7 @@ const TwoFA = () => {
         fetch("http://localhost:3007/sendCode", {
         method: "POST",
         body: JSON.stringify({
-            email: email
+            email: email   //send to backend
         }),
         headers: {
             "Content-Type": "application/json",
