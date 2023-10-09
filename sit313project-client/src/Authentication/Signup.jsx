@@ -39,7 +39,7 @@ const Signup = (props) => {
             //console.log(user)
         }
         catch (error) {
-            console.log('error in creating user', error.message)
+            console.log('error in creating user: ', error.message)
         }
     }
 

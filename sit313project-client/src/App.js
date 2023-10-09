@@ -7,6 +7,7 @@ import FindJob from './Routes/FindJob';
 import LoginPage from './Routes/LoginPage';
 import CreateAccountPage from './Routes/CreateAccountPage';
 import Profile from './Authentication/Profile';
+import TwoFA from './Authentication/TwoFA';
 
 function App() {
     //const [searchTerm, setSearchTerm] = useState('')
@@ -23,6 +24,7 @@ function App() {
                 <Route path='FindJob' element={<FindJob />}/>
                 <Route path='login' element={<LoginPage />} />
                 <Route path='CreateAccountPage' element={<CreateAccountPage />} />
+                <Route path='TwoFA' element={<TwoFA />} />
                 <Route path='profile' element={<Profile />} />
                 </Route>
             </Routes>

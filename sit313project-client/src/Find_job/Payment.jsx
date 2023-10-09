@@ -12,7 +12,7 @@ function Payment(){
                 name="Employment Payment"
                 currency='AUDr'
                 amount='1000'
-                stripeKey="my_PUBLISHABLE_stripekey"
+                stripeKey="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
       />
         </div>
     )

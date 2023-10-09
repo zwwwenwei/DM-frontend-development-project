@@ -5,6 +5,7 @@ import './Login.css'
 import { signinAuthUserWithEmailAndPassword } from '../utils/firebase'
 
 
+
 const Login = (props) => {
     
     const [contact, setContact] = useState({
@@ -30,11 +31,25 @@ const Login = (props) => {
     const handleSubmit = async (event) => {
         event.preventDefault();
 
-        try {
+        /*await fetch('http://localhost:3007/login', {
+            method: 'post',
+            headers: {'Content-Type': 'application/json'},
+            body : JSON.stringify({
+                username: contact.email,
+                password: contact.password
+            })
+        })
+        .then(response => response.json())
+        //.then(data=> console.log(data))
+        .then(data => JSON.parse(data))
+        .catch(err =>{
+            console.log("Error:" + err)
+        })*/
 
+        try {
             const response = await signinAuthUserWithEmailAndPassword(email, password);
             console.log(response);
-            Navigate('/profile')
+            Navigate('/TwoFA')
         }
         catch (error) {
             console.log('error in login', error.message)
@@ -79,7 +94,7 @@ const Login = (props) => {
             value={contact.password}
             />
         </div>
-
+        
         <br></br>
         <br></br>
 
@@ -89,9 +104,6 @@ const Login = (props) => {
 
         <br></br>
         <br></br>
-
-        
-
 
     </div>
 
