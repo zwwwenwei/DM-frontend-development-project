@@ -150,6 +150,6 @@ app.post("/verification", (req, res) => {
     });
 });
 
-app.listen(3007, function (request, response){
+app.listen(process.env.PORT || 3007, function (request, response){
     console.log("Server is running on port 3007")
 } )
