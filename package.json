@@ -5,9 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "server": "cd sit313project-client && npm start",
-    "dev": "concurrently \"npm run server\" \"npm start\""
+    "server": "node server.js",
+    "dev": "cd sit313project-client && npm start",
+    "start": "concurrently \"npm run dev\" \"npm run server\""
   },
   "repository": {
     "type": "git",
