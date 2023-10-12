@@ -1,1 +1,1 @@
-web: cd sit313project-final && npm start
+web: npm start
