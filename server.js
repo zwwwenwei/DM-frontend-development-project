@@ -2,6 +2,7 @@ const express = require("express")
 const bodyParser = require("body-parser")
 const https = require("https")
 const cors = require('cors')
+const app = express()
 //const OpenAIapi = require("openai")
 //const Configuration = require("openai")
 /*import OpenAIapi from "openai";
@@ -12,7 +13,10 @@ import bodyParser from "body-parser";
 import https from 'https';
 import cors from "cors";*/
 
-
+app.use(bodyParser.urlencoded({extended:true}))
+app.use(express.static("public"))
+app.use(cors())
+app.use(bodyParser.json())
 
 app.get('/sendEmail', (req,res)=>{
     //res.sendFile(__dirname + "/index.html") //display on the browse web page
