@@ -35,7 +35,7 @@ function Sendemail(props) {
 
     }*/
     const handleClick = async()=>{
-        await fetch('http://localhost:3007/', {
+        await fetch('http://localhost:3007/sendEmail', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body : JSON.stringify({

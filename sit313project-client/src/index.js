@@ -18,7 +18,3 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-/*"devDependencies": {
-  "@faker-js/faker": "^8.1.0",
-  "gh-pages": "^6.0.0"
-}*/

@@ -13,13 +13,8 @@ import https from 'https';
 import cors from "cors";*/
 
 
-const app = express()
-app.use(bodyParser.urlencoded({extended:true}))
-app.use(express.static("public"))
-app.use(cors())
-app.use(bodyParser.json())
 
-app.get('/', (req,res)=>{
+app.get('/sendEmail', (req,res)=>{
     //res.sendFile(__dirname + "/index.html") //display on the browse web page
     const email = {
         email:''
@@ -27,7 +22,7 @@ app.get('/', (req,res)=>{
     res.send(email)
 })
 
-app.post('/' , (req,res)=>{
+app.post('/sendEmail' , (req,res)=>{
     const email = req.body.email
 
     var api_key = 'c2f78883d5a33c5a2c84020e370ce197-c30053db-51a6393a';
