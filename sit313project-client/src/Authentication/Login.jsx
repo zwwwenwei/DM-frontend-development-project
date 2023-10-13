@@ -31,7 +31,7 @@ const Login = (props) => {
     const handleSubmit = async (event) => {
         event.preventDefault();
 
-        await fetch('http://localhost:3007/login', {
+        /*await fetch('http://localhost:3007/login', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body : JSON.stringify({
@@ -44,7 +44,7 @@ const Login = (props) => {
         .then(data => JSON.parse(data))
         .catch(err =>{
             console.log("Error:" + err)
-        })
+        })*/
 
         try {
             const response = await signinAuthUserWithEmailAndPassword(email, password);
