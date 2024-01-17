@@ -71,7 +71,7 @@ function CreateResume(){
 
     return(
         <div>
-            <h1>AI CREATE</h1>
+            <h1>AI CREATE "NOTE: chatgpt API issue"</h1>
             <p>name</p>
             <input
             name='name'

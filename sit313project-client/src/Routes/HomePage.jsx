@@ -5,14 +5,14 @@ import CustomerCardList from '../Card_folder/Customer_cardlist'
 //import Navbar from './Navbar_folder/Navbar'
 import Sendemail from '../Sendemail/Sendemail'
 import Footer from '../Footer'
-import image1 from '../image/image1.jpg'
+import devImage from '../image/devImage.jpg'
 
 function HomePage() {
     return (
         <div>
             
             <br></br>
-            <img src={image1} className="image1" alt="" />
+            <img src={devImage} className="image1" alt="" />
             <br></br>
             <div className='header-div'>
                 <Header

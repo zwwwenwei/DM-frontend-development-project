@@ -28,6 +28,7 @@ const TwoFA = () => {
         return () => unsubscribe();
 }, [auth]);
 
+
     const onLogout = () => {
         auth.signOut()
         navigate('/')
